@@ -1,0 +1,44 @@
+html, body, .container-table {
+    height: 100%;
+    width: 100%;
+    transition: background 0.5s ease;
+    background: darkblue;
+    transition: all 1s ease-in;
+}
+.container-table {
+    display: table;
+    position: relative;
+}
+.vertical-center-row {
+    display: table-cell;
+    vertical-align: middle;
+    
+}
+.quotes{
+    height: 80%;
+    width: 90%;
+}
+.message{
+    font-family: 'Macondo', cursive;
+    font-size: 2em;
+}
+.tweetButton{
+    position: absolute;
+    background-color: black;
+    border-radius: 4px;
+    left: 20px;
+    bottom: 15px;
+    transition: background 1s ease-in;
+    background: darkblue;
+}
+#getQuotes{
+    position: absolute;
+    background-color: red;
+    color: white;
+    bottom: 15px;
+    right: 20px;
+    height: 50px;
+    transition: background 1s ease-in;
+    background: darkblue;
+    border-radius: 4px;
+}
